@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId = "com.exam.lms"
-        minSdk = 26
+        minSdk = 24
         targetSdk = 35
         versionCode = 1
         versionName = "1.0.0"
@@ -23,7 +23,7 @@ android {
             useSupportLibrary = true
         }
 
-        buildConfigField("String", "BASE_URL", "\"http://10.0.2.2:8000/api/v1/\"")
+        buildConfigField("String", "BASE_URL", "\"http://10.0.2.2:8000/api/\"")
         buildConfigField("Boolean", "USE_MOCK_DATA", "true")
     }
 
